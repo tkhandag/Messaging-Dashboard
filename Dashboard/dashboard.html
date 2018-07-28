@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+	<body>
+	<header class="navbar navbar-expand flex-column flex-md-row bd-navbar" style="background-color:#2962ff;">
+		<h4 style="color:#ffffff;font-weight:normal;">Video Calling</h4>
+	</header>
+	<div class="container-fluid outside" style="padding:0px;">
+		<div class="row flex-xl-nowrap">
+			<div class="col-sm-12 col-md-3 col-lg-3 sidebar" style="padding-right:0px;">
+				<div class="container-fluid sidetop" style="padding-top:12px;padding-bottom:12px;">
+					<div class="col">
+						<div class="profile-item">
+							<div class="img-container">
+								<img src="user.jpg">
+							</div>
+							<div class="pro-name">
+								<p class="online">Receiver</p>
+							</div>
+						</div>
+						<hr />
+						<ul class="nav nav-tabs">
+							<li class="nav-item" style="width:50%;">
+								<a class="nav-link active" data-toggle="tab" href="#">Contacts</a>
+							</li>
+							<li class="nav-item" style="width:50%;">
+								<a class="nav-link" data-toggle="tab" href="#">Recent</a>
+							</li>
+						</ul>
+						<div class="search-bar" style="margin-top:17px;">
+							<form action="post">
+								<input type="text" placeholder="Search.." name="search">
+								<button type="submit"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+						<ul class="list-group contact">
+							<li class="list-group-item justify-content-between align-items-center">Contact 1<span class="btn btn-link option"><i class="fa fa-video-camera"></i></span></li>
+							<li class="list-group-item justify-content-between align-items-center">Contact 2<span class="btn btn-link option"><i class="fa fa-video-camera"></i></span></li>
+							<li class="list-group-item justify-content-between align-items-center">Contact 3<span class="btn btn-link option"><i class="fa fa-video-camera"></i></span></li>
+							<li class="list-group-item justify-content-between align-items-center">Contact 4<span class="btn btn-link option"><i class="fa fa-video-camera"></i></span></li>
+							<li class="list-group-item justify-content-between align-items-center">Contact 5<span class="btn btn-link option"><i class="fa fa-video-camera"></i></span></li>
+							<li class="list-group-item justify-content-between align-items-center">Contact 6<span class="btn btn-link option"><i class="fa fa-video-camera"></i></span></li>
+							<li class="list-group-item justify-content-between align-items-center">Contact 7<span class="btn btn-link option"><i class="fa fa-video-camera"></i></span></li>
+						</ul>
+						<div class="container-fluid">
+						<ul class="nav flex-column" style="margin-top:8px;">
+							<li class="nav-item"><a href="#" class="nav-link item"><i class="fa fa-cog icon"></i><p style="display:inline;">Settings</p></a></li>
+							<li class="nav-item"><a href="#" class="nav-link item"><i class="fa fa-sign-out icon"></i><p style="display:inline;">Logout</p></a></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-9 col-lg-9 maincontent" style="padding:0px;">
+				<div class="footer">
+					<div class="inner" style="text-align:center;">
+						<span class="btn btn-link mic" style="margin-right:10px;"><i class="fa fa-microphone video-control" style=""></i></span>
+						<span class="btn btn-link hungup"><i class="fa fa-tty video-control" style=""></i></span>
+						<span class="btn btn-link cam" style="margin-left:10px;"><i class="fa fa-video-camera video-control" style=""></i></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
